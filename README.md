@@ -20,8 +20,8 @@ Este projeto utiliza o Karate DSL para testar a API RESTful Booker.
 Para clonar o repositório, execute:
 
 ```sh
-git clone https://github.com/seu-usuario/karate-booking-tests.git
-cd karate-booking-tests
+git clone https://github.com/gusstavocardoso/karateBookingTests.git
+cd karateBookingTests
 ```
 
 ### Execução dos Testes
