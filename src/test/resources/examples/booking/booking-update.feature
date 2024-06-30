@@ -10,7 +10,7 @@ Feature: Update Booking
     And request { "firstname": "Jane", "lastname": "Doe", "totalprice": 200, "depositpaid": true, "bookingdates": { "checkin": "2022-07-01", "checkout": "2022-07-02" }, "additionalneeds": "Breakfast" }
     When method post
     Then status 200
-    And def bookingId = response.bookingid
+    * def bookingId = response.bookingid
 
     Given url 'https://restful-booker.herokuapp.com/booking/' + bookingId
     And header Cookie = 'token=' + token
